@@ -1,0 +1,83 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
+
+#title {
+    margin: auto;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 100px;
+    opacity: 0.5;
+    margin-top: 7%;
+    padding-top: 3%;
+}   
+#instructions {
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 70%;
+    margin-top: 2%;
+    line-height: 125%;
+    /* background-color: aliceblue; */
+    opacity: 0.75;
+    font-size: 15pt;
+    margin-bottom: 2%;
+}
+
+#game-number {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 15%;
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+    margin-top: 1%;
+    float: left;
+}
+
+#title2 {
+    text-align: center;
+    font-size: 15pt;
+}
+
+#number, #number2 {
+    text-align: center;
+    font-size: 90pt;
+}
+
+#pic1, #pic2, #pic3, #pic4 {
+    float: left;
+}
+
+#current-score {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 15%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    width: 150px;
+    opacity: 0.5;
+    height: 150px;
+    float: left;
+}
+
+
+
+#outcome-box {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    font-size: 35pt;
+    margin-top: 20%;
+    opacity: 0.5;
+    height: 1%;
+    width: 70%;
+    text-align: center;
+
+}
+
+button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-left: 0%;
+    float: left;
+
+}
