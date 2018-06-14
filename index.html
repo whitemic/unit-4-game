@@ -10,7 +10,6 @@
 <body>
     <div id="title">Crystal Collector</div>
     <div id="instructions">
-        How to Play: Choose and click on any of the crystal buttons. Each one will be worth a random value between one and twelve for each game you play. When you click on a crystal you will see your current score increase by the value of the crystal you chose. Your goal is to use the crystals strategically so that your current score matches the designated game score for that round. If you go over this amount, you will lose the game. 
     </div>
     <div id="game-number">
         <div id="title2">Number to Match:</div>
@@ -18,17 +17,17 @@
     </div>
     <!-- make the buttons here -->
     <div id="buttons">
-        <button type="button" id="button1">
-                <img src="assets/images/crystal1.png" id="pic1" style="width: 90px; height: 150px;">
+        <button type="button" class="button" value="0">
+                <img src="assets/images/crystal1.png" id="pic1"; style="width: 90px; height: 150px;">
         </button>
-        <button type="button" id="button2">
-                <img src="assets/images/crystal2.png" id="pic2" style="width: 90px; height: 150px;">
+        <button type="button" class="button" value="0">
+                <img src="assets/images/crystal2.png" id="pic2"; style="width: 90px; height: 150px;">
         </button>
-        <button type="button" id="button3">
-                <img src="assets/images/crystal3.png" id="pic13" style="width: 90px; height: 150px;">
+        <button type="button" class="button"  value="0">
+                <img src="assets/images/crystal3.png" id="pic13"; style="width: 90px; height: 150px;">
         </button>
-        <button type="button" id="button4">
-                <img src="assets/images/crystal4.png" id="pic4" style="width: 90px; height: 150px;">
+        <button type="button" class="button" value="0">
+                <img src="assets/images/crystal4.png" id="pic4"; style="width: 90px; height: 150px;">
         </button>
     </div>
     
@@ -37,8 +36,10 @@
         <div id="title2">Your Current Score:</div>
         <div id="number2"></div>
     </div>
-
-    <div id="outcome-box"></div>
+    <div id="game-outcome">
+        <div id="outcome-box"></div>
+        <div id="win-lose"></div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
